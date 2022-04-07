@@ -1,0 +1,23 @@
+{
+  "name": "frontex-vis",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "postcss-nested": "^5.0.6",
+    "prettier": "^2.6.2",
+    "vite": "^2.9.1"
+  },
+  "dependencies": {
+    "d3": "^7.4.2"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "semi": false
+  }
+}

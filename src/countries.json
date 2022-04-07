@@ -1,0 +1,219 @@
+[
+  {
+    "code": "AT",
+    "name": {
+      "de": "Österreich",
+      "en": "Austria"
+    }
+  },
+  {
+    "code": "BE",
+    "name": {
+      "de": "Belgien",
+      "en": "Belgium"
+    }
+  },
+  {
+    "code": "BG",
+    "name": {
+      "de": "Bulgarien",
+      "en": "Bulgaria"
+    }
+  },
+  {
+    "code": "CH",
+    "name": {
+      "de": "Schweiz",
+      "en": "Switzerland"
+    }
+  },
+  {
+    "code": "CY",
+    "name": {
+      "de": "Zypern",
+      "en": "Cyprus"
+    }
+  },
+  {
+    "code": "CZ",
+    "name": {
+      "de": "Tschechien",
+      "en": "Czechia"
+    }
+  },
+  {
+    "code": "DE",
+    "name": {
+      "de": "Deutschland",
+      "en": "Germany"
+    }
+  },
+  {
+    "code": "DK",
+    "name": {
+      "de": "Dänemark",
+      "en": "Denmark"
+    }
+  },
+  {
+    "code": "EE",
+    "name": {
+      "de": "Estland",
+      "en": "Estonia"
+    }
+  },
+  {
+    "code": "GR",
+    "name": {
+      "de": "Griechenland",
+      "en": "Greece"
+    }
+  },
+  {
+    "code": "ES",
+    "name": {
+      "de": "Spanien",
+      "en": "Spain"
+    }
+  },
+  {
+    "code": "FI",
+    "name": {
+      "de": "Finnland",
+      "en": "Finland"
+    }
+  },
+  {
+    "code": "FR",
+    "name": {
+      "de": "Frankreich",
+      "en": "France"
+    }
+  },
+  {
+    "code": "HR",
+    "name": {
+      "de": "Kroatien",
+      "en": "Croatia"
+    }
+  },
+  {
+    "code": "HU",
+    "name": {
+      "de": "Ungarn",
+      "en": "Hungary"
+    }
+  },
+  {
+    "code": "IS",
+    "name": {
+      "de": "Island",
+      "en": "Iceland"
+    }
+  },
+  {
+    "code": "IT",
+    "name": {
+      "de": "Italien",
+      "en": "Italy"
+    }
+  },
+  {
+    "code": "LT",
+    "name": {
+      "de": "Litauen",
+      "en": "Lithuania"
+    }
+  },
+  {
+    "code": "LU",
+    "name": {
+      "de": "Luxemburg",
+      "en": "Luxemburg"
+    }
+  },
+  {
+    "code": "LV",
+    "name": {
+      "de": "Lettland",
+      "en": "Latvia"
+    }
+  },
+  {
+    "code": "MT",
+    "name": {
+      "de": "Malta",
+      "en": "Malta"
+    }
+  },
+  {
+    "code": "NL",
+    "name": {
+      "de": "Niederlande",
+      "en": "Netherlands"
+    }
+  },
+  {
+    "code": "NO",
+    "name": {
+      "de": "Norwegen",
+      "en": "Norway"
+    }
+  },
+  {
+    "code": "PL",
+    "name": {
+      "de": "Polen",
+      "en": "Poland"
+    }
+  },
+  {
+    "code": "PT",
+    "name": {
+      "de": "Portugal",
+      "en": "Portugal"
+    }
+  },
+  {
+    "code": "RO",
+    "name": {
+      "de": "Romänien",
+      "en": "Romania"
+    }
+  },
+  {
+    "code": "SE",
+    "name": {
+      "de": "Schweden",
+      "en": "Sweden"
+    }
+  },
+  {
+    "code": "SI",
+    "name": {
+      "de": "Slovenien",
+      "en": "Slovenia"
+    }
+  },
+  {
+    "code": "SK",
+    "name": {
+      "de": "Slovakei",
+      "en": "Slovakia"
+    }
+  },
+  {
+    "code": "GB",
+    "name": {
+      "de": "Vereinigtes Königreich",
+      "en": "United Kingdom"
+    }
+  },
+  {
+    "code": "FX",
+    "name": {
+      "de": "Frontex",
+      "en": "Frontex"
+    }
+  }
+]
