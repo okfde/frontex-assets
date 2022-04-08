@@ -24,7 +24,7 @@ const server = await createServer({
 })
 await server.listen()
 
-const browser = await playwright.chromium.launch({ headless: false })
+const browser = await playwright.chromium.launch()
 const context = await browser.newContext({
   deviceScaleFactor: 3
 })
