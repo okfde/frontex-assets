@@ -1,10 +1,11 @@
-import { getCountryLabel, language, i18n } from './utils.js'
+import { getCountryLabel, getLanguage, i18n } from './utils.js'
 import { getCountryStats } from './data.js'
 import { makeChart } from './chart.js'
 
 export const countrySelector = document.querySelector('#fx-country-selector')
 
 export function setCountry(country) {
+  const language = getLanguage()
   const stats = document.querySelector('#fx-stats')
   const hint = document.querySelector('#fx-hint')
 
@@ -50,10 +51,11 @@ export function setCountry(country) {
     stats.appendChild(container)
   }
 
+  document.querySelector('#fx-attribution').innerText = i18n('attribution')
   document
     .querySelector('#fx-download-png')
     ?.setAttribute(
       'href',
-      `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}.png`
+      `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}-${language}.png`
     )
 }

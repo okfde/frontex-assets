@@ -1,12 +1,12 @@
 import _countries from './countries.json'
 import i18nStrings from './i18n.json'
 
-export const language = document.documentElement.lang === 'de' ? 'de' : 'en'
+export const getLanguage = () =>
+  document.documentElement.lang === 'de' ? 'de' : 'en'
 
 // country selector helpers
-
 export const countries = _countries.sort((a, b) =>
-  a.name[language] < b.name[language] ? -1 : 1
+  a.name[getLanguage()] < b.name[getLanguage()] ? -1 : 1
 )
 
 function getFlagEmoji(countryCode) {
@@ -19,7 +19,7 @@ function getFlagEmoji(countryCode) {
 }
 
 export function getCountryLabel(country) {
-  return `${getFlagEmoji(country.code)} ${country.name[language]}`
+  return `${getFlagEmoji(country.code)} ${country.name[getLanguage()]}`
 }
 
 export function addObjects(objs) {
@@ -32,7 +32,7 @@ export function addObjects(objs) {
 }
 
 export function i18n(...path) {
-  return [...path, language].reduce(
+  return [...path, getLanguage()].reduce(
     (obj, segment) => obj?.[segment],
     i18nStrings
   )

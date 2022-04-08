@@ -35,6 +35,7 @@ await page.waitForLoadState('domcontentloaded')
 
 await page.evaluate(async () => {
   document.querySelector('#app').style.width = '1000px'
+  document.querySelector('.box-card').classList.remove('border-blue')
 
   document
     .querySelector('#fx-country-selector')
@@ -67,20 +68,27 @@ await page.evaluate(async () => {
   window.twemoji = (await import('/node_modules/.vite/deps/twemoji.js')).default
 })
 
-for (const country of countries) {
-  await page.evaluate(async country => {
-    const { setCountry } = await import('/src/components.js')
-    setCountry(country)
+for (const language of ['en', 'de']) {
+  await page.evaluate(language => {
+    document.documentElement.lang = language
+  }, language)
 
-    window.twemoji.parse(document.body)
-  }, country)
+  for (const country of countries) {
+    await page.evaluate(async country => {
+      const { setCountry } = await import('/src/components.js')
+      setCountry(country)
 
-  await page.locator('#app').screenshot({
-    path: path.resolve(distDir, `${country.code}.png`),
-    omitBackground: true
-  })
+      window.twemoji.parse(document.body)
+    }, country)
 
-  console.log('Rendered', country.name.en)
+    await page.locator('#app').screenshot({
+      path: path.resolve(distDir, `${country.code}-${language}.png`),
+      omitBackground: true
+    })
+
+    console.log('Rendered', country.name.en)
+    break
+  }
 }
 
 await browser.close()

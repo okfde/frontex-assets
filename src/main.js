@@ -14,5 +14,3 @@ for (const country of countries) {
 }
 
 setCountry(countries.find(c => c.code === 'DE'))
-
-document.querySelector('#fx-attribution').innerText = i18n('attribution')
