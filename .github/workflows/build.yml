@@ -23,7 +23,7 @@ jobs:
         run: 'yarn build --base="/frontex-assets/"'
       - name: Generate images
         run: |
-          yarn playwright install-deps chromium
+          yarn playwright install chromium --with-deps
           yarn generateImages
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
