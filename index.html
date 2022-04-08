@@ -8,86 +8,43 @@
   <title>Vite App</title>
   <link rel="stylesheet"
     href="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/css/main.css" />
-  <link rel="stylesheet"
-    href="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/css/vegacharts.css" />
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-8">
-        <div id="app">
-          <div class="box-card shadow-blue border-blue">
-            <div class="bg-blue-20 p-3 p-md-4">
-              <div class="dropdown">
-                <div class="box-card-header h5 dropdown-toggle" role="button" id="fx-country-selector"
-                  data-toggle="dropdown" aria-expanded="false">
-                  🇩🇪 Germany
-                </div>
-                <div class="dropdown-menu" aria-labelledby="fx-country-selector">
-
-                </div>
-              </div>
-              contributions since 2015
-            </div>
-
-            <div class="p-3 p-md-4 tight-margin">
-              <div class="d-md-flex">
-                <div class="flex-grow-1 order-md-2 ml-md-5 d-none" data-vegachart data-vegachartdata='{
-                  "config": {"view": {"continuousWidth": 400, "continuousHeight": 80}},
-                  "layer": [
-                    {
-                      "mark": "line",
-                      "encoding": {
-                        "x": {
-                          "axis": {"format": "", "tickCount": 6},
-                          "field": "index",
-                          "scale": {"domain": [2015, 2020]},
-                          "title": "",
-                          "type": "quantitative"
-                        },
-                        "y": {
-                          "field": "officers", "type": "quantitative",
-                          "title": ""
-                          
-                        }
-                      }
-                    }
-                  ],
-                  "data": {"name": "data", "values": "data"},
-                  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
-                  "datasets": {
-                    "data": [
-                      {"index": 2020, "officers": 8738},
-                      {"index": 2019, "officers": 11217},
-                      {"index": 2018, "officers": 10647},
-                      {"index": 2017, "officers": 9689},
-                      {"index": 2016, "officers": 0},
-                      {"index": 2015, "officers": 0}
-                    ]
-                  }
-                }'>
-                </div>
-
-                <div class="text-nowrap">
-                  <span class="h3">2,846</span>
-                  officers in total
-                  <br>
-                  <span class="text-gray-700">8,5% of all countries</span>
-                </div>
-              </div>
-            </div>
+  <div id="app">
+    <div class="box-card shadow-blue border-blue">
+      <div class="bg-blue-20 p-3 p-md-4">
+        <div class="dropdown">
+          <div class="box-card-header h4 dropdown-toggle" role="button" id="fx-country-selector" data-toggle="dropdown"
+            aria-expanded="false">
+            🇩🇪 Germany
           </div>
+          <div class="dropdown-menu" aria-labelledby="fx-country-selector">
 
+          </div>
+        </div>
 
+        <div>contributions since 2015</div>
+        <div id="fx-hint"></div>
+      </div>
+
+      <div class="p-3 p-md-4">
+        <div class="tight-margin" id="fx-stats"></div>
+        <div class="d-flex mt-5 align-items-end">
+          <span id="fx-attribution" class="text-gray-700"></span>
+          <a href="#!" class="action-link ml-auto" id="fx-download-png" target="_blank" rel="noopener noreferrer">
+            <i class="fa fa-download"></i>
+            <span class="sr-only">Download</span>
+            PNG
+          </a>
         </div>
       </div>
     </div>
   </div>
 
-  <script src="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/js/main.js"></script>
-  <script src="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/js/vegacharts.js"></script>
+
   <script type="module" src="/src/main.js"></script>
+  <script src="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/js/main.js"></script>
 </body>
 
 </html>

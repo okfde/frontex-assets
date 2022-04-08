@@ -1,10 +1,12 @@
 {
   "name": "frontex-vis",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "generateImages": "node src/generateImages"
   },
   "devDependencies": {
     "postcss-nested": "^5.0.6",
@@ -12,7 +14,12 @@
     "vite": "^2.9.1"
   },
   "dependencies": {
-    "d3": "^7.4.2"
+    "d3": "^7.4.2",
+    "playwright": "^1.20.2",
+    "twemoji": "^14.0.2",
+    "vega": "^5.22.1",
+    "vega-embed": "^6.20.8",
+    "vega-lite": "^5.2.0"
   },
   "prettier": {
     "singleQuote": true,

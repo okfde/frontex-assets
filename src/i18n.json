@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "relContributions": {
+      "en": "of all member country contributions",
+      "de": "aller Lieferungen der Mitgliedsstaaten"
+    },
+    "providedInTotal": {
+      "en": "provided in total",
+      "de": "insgesamt bereitgestellt"
+    }
+  },
+  "attribution": {
+    "en": "Source: Frontex Annual Implementation Reports, 2015 - 2020",
+    "de": "Quelle: Frontex Jahresberichte, 2015 - 2020"
+  },
+  "groups": {
+    "officers": {
+      "title": {
+        "en": "officers",
+        "de": ""
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    "detectors": {
+      "title": {
+        "en": "detectors",
+        "de": ""
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    "dogTeam": {
+      "title": {
+        "en": "dog teams",
+        "de": ""
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    "vessels": {
+      "title": {
+        "en": "vessels",
+        "de": ""
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    "helicopters": {
+      "title": {
+        "en": "helicopters",
+        "de": ""
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    },
+    "patrolCar": {
+      "title": {
+        "en": "patrol cars",
+        "de": "Streifenwagen"
+      },
+      "description": {
+        "en": "",
+        "de": ""
+      }
+    }
+  }
+}

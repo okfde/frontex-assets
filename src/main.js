@@ -1,12 +1,8 @@
-import _countries from './countries.json'
-import { getCountryLabel, language } from './utils'
+import { getCountryLabel, countries, i18n } from './utils'
+import { setCountry, countrySelector } from './components'
 import './style.css'
-
-const countrySelector = document.querySelector('#fx-country-selector')
-
-const countries = _countries.sort((a, b) =>
-  a.name[language] < b.name[language] ? -1 : 1
-)
+import twemoji from 'twemoji'
+window.twemoji = twemoji
 
 for (const country of countries) {
   const link = document.createElement('a')
@@ -17,6 +13,6 @@ for (const country of countries) {
   countrySelector.nextElementSibling.appendChild(link)
 }
 
-function setCountry(country) {
-  countrySelector.innerText = getCountryLabel(country)
-}
+setCountry(countries.find(c => c.code === 'DE'))
+
+document.querySelector('#fx-attribution').innerText = i18n('attribution')

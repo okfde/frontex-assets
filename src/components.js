@@ -1,0 +1,56 @@
+import { getCountryLabel, language, i18n } from './utils.js'
+import { getCountryStats } from './data.js'
+import { makeChart } from './chart.js'
+
+export const countrySelector = document.querySelector('#fx-country-selector')
+
+export function setCountry(country) {
+  const stats = document.querySelector('#fx-stats')
+
+  countrySelector.innerText = getCountryLabel(country)
+  document.querySelector('#fx-hint').innerText = country.hint?.[language] ?? ''
+
+  stats.innerHTML = ''
+
+  const { sortedGroups, totals } = getCountryStats(country)
+
+  const locale = language === 'de' ? 'de-DE' : 'en-US'
+
+  const integerFormat = new Intl.NumberFormat(locale).format
+  const percentageFormat = new Intl.NumberFormat(locale, {
+    style: 'percent',
+    maximumFractionDigits: 1
+  }).format
+
+  for (const [group, ratio] of sortedGroups) {
+    const total = totals[group]
+    if (total === 0) continue
+
+    const container = document.createElement('div')
+    container.classList.add('row', 'mb-3')
+    container.innerHTML = `
+      <div class="col-12 col-md-6 order-md-2 fx-chart"></div>
+      <div class="text-nowrap col-12 col-md-6 d-flex flex-column justify-content-center my-3">
+        <div>
+          <span class="h3">${integerFormat(total)}</span>
+          ${i18n('groups', group, 'title')} ${i18n('stats', 'providedInTotal')}
+        </div>
+
+        <br>
+
+        <span class="text-gray-700">${percentageFormat(ratio)}
+        ${i18n('stats', 'relContributions')}</span>
+      </div>
+    `
+
+    makeChart(container.querySelector('.fx-chart'), country, group)
+    stats.appendChild(container)
+  }
+
+  document
+    .querySelector('#fx-download-png')
+    ?.setAttribute(
+      'href',
+      `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}.png`
+    )
+}
