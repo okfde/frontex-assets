@@ -1,17 +1,21 @@
 {
   "stats": {
     "relContributions": {
-      "en": "of all member country contributions",
-      "de": "aller Lieferungen der Mitgliedsstaaten"
+      "en": "of all assets",
+      "de": "aller Posten"
     },
     "providedInTotal": {
-      "en": "provided in total",
-      "de": "insgesamt bereitgestellt"
+      "en": "provided",
+      "de": "bereitgestellt"
     }
   },
   "attribution": {
     "en": "Source: Frontex Annual Implementation Reports, 2015 - 2020",
     "de": "Quelle: Frontex Jahresberichte, 2015 - 2020"
+  },
+  "description": {
+    "en": "contributions from 2015 to 2020",
+    "de": "Lieferungen zwischen 2015 und 2020"
   },
   "groups": {
     "officers": {
