@@ -87,7 +87,6 @@ for (const language of ['en', 'de']) {
     })
 
     console.log('Rendered', country.name.en)
-    break
   }
 }
 
