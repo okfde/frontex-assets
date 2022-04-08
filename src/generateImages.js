@@ -30,6 +30,8 @@ const context = await browser.newContext({
 })
 context.addInitScript(
   () => {
+    document.querySelector('#fds-styles').remove()
+
     const inter = document.createElement('script')
     inter.src = '/node_modules/@fontsource/inter/index.css'
     inter.type = 'module'
@@ -50,8 +52,14 @@ await page.evaluate(async () => {
     .querySelector('#fx-country-selector')
     .classList.remove('dropdown-toggle')
 
-  const style = document.createElement('style')
-  style.innerHTML = `
+  const fdsStyles = document.createElement('link')
+  fdsStyles.href =
+    'https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/css/main.css'
+  fdsStyles.rel = 'stylesheet'
+  document.head.appendChild(fdsStyles)
+
+  const emoji = document.createElement('style')
+  emoji.innerHTML = `
     img.emoji {
       height: 1em;
       width: 1em;
@@ -59,7 +67,7 @@ await page.evaluate(async () => {
       vertical-align: -0.1em;
     }  
   `
-  document.head.appendChild(style)
+  document.head.appendChild(emoji)
 
   const logo = document.createElement('img')
   logo.src = 'https://static.frag-den-staat.de/static/img/header_logo.svg'
