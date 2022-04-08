@@ -36,9 +36,7 @@ export function setCountry(country) {
           ${i18n('groups', group, 'title')} ${i18n('stats', 'providedInTotal')}
         </div>
 
-        <br>
-
-        <span class="text-gray-700">${percentageFormat(ratio)}
+        <span class="text-gray-700 mt-1">${percentageFormat(ratio)}
         ${i18n('stats', 'relContributions')}</span>
       </div>
     `
