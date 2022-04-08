@@ -24,10 +24,19 @@ const server = await createServer({
 })
 await server.listen()
 
-const browser = await playwright.chromium.launch()
+const browser = await playwright.chromium.launch({ headless: false })
 const context = await browser.newContext({
   deviceScaleFactor: 3
 })
+context.addInitScript(
+  () => {
+    const inter = document.createElement('script')
+    inter.src = '/node_modules/@fontsource/inter/index.css'
+    inter.type = 'module'
+    document.head.appendChild(inter)
+  },
+  { type: 'module' }
+)
 
 const page = await context.newPage()
 await page.goto(`http://localhost:${port}`)
@@ -51,11 +60,6 @@ await page.evaluate(async () => {
     }  
   `
   document.head.appendChild(style)
-
-  const inter = document.createElement('script')
-  inter.src = '/node_modules/@fontsource/inter/index.css'
-  inter.type = 'module'
-  document.head.appendChild(inter)
 
   const logo = document.createElement('img')
   logo.src = 'https://static.frag-den-staat.de/static/img/header_logo.svg'
@@ -87,6 +91,7 @@ for (const language of ['en', 'de']) {
     })
 
     console.log('Rendered', country.name.en)
+    break
   }
 }
 

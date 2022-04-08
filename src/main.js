@@ -1,8 +1,6 @@
 import { getCountryLabel, countries, i18n } from './utils'
 import { setCountry, countrySelector } from './components'
 import './style.css'
-import twemoji from 'twemoji'
-window.twemoji = twemoji
 
 for (const country of countries) {
   const link = document.createElement('a')
