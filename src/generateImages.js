@@ -51,6 +51,11 @@ await page.evaluate(async () => {
   `
   document.head.appendChild(style)
 
+  const inter = document.createElement('script')
+  inter.src = '/node_modules/@fontsource/inter/index.css'
+  inter.type = 'module'
+  document.head.appendChild(inter)
+
   const logo = document.createElement('img')
   logo.src = 'https://static.frag-den-staat.de/static/img/header_logo.svg'
   logo.classList.add('ml-auto')
@@ -76,8 +81,6 @@ for (const country of countries) {
   })
 
   console.log('Rendered', country.name.en)
-
-  break
 }
 
 await browser.close()
