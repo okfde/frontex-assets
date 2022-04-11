@@ -43,7 +43,7 @@ export function setCountry(country) {
         </div>
 
         <span class="text-gray-700 mt-1">${percentageFormat(ratio)}
-        ${i18n('stats', 'offAll')} ${i18n('groups', group, 'title')}</span>
+        ${i18n('stats', 'ofAll')} ${i18n('groups', group, 'title')}</span>
       </div>
     `
 
