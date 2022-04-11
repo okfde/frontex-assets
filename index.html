@@ -6,6 +6,7 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite App</title>
+  
   <link rel="stylesheet" href="https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/css/main.css"
     id="fds-styles" />
   <script type="module" crossorigin src="/frontex-assets/index.js"></script>
@@ -13,7 +14,7 @@
 </head>
 
 <body>
-  <div id="app">
+  <div id="country-explorer">
     <div class="box-card shadow-blue border-blue">
       <div class="bg-blue-20 p-3 p-md-4">
         <div class="dropdown">
@@ -38,6 +39,22 @@
             <span class="sr-only">Download</span>
             PNG
           </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-6">
+    <div class="container position-relative">
+      <div class="bg-gray-200 p-4">
+        <h2 class="text-center">Important providers</h2>
+      </div>
+
+      <div class="backdrop-gray backdrop-75">
+        <div class="position-relative p-4">
+          <div id="important-providers" class="row">
+
+          </div>
         </div>
       </div>
     </div>
