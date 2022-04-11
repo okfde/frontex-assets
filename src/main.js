@@ -1,6 +1,6 @@
 import { getCountryLabel, countries } from './utils'
-import { setCountry, countrySelector } from './components'
-import './style.css'
+import { setCountry, countrySelector } from './countryExplorer'
+import { renderProviders } from './importantProviders'
 
 for (const country of countries) {
   const link = document.createElement('a')
@@ -12,3 +12,5 @@ for (const country of countries) {
 }
 
 setCountry(countries.find(c => c.code === 'DE'))
+
+renderProviders()

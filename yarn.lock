@@ -1024,6 +1024,11 @@ tslib@^2.3.1, tslib@~2.3.1:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
 
+tsx-dom@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/tsx-dom/-/tsx-dom-1.3.0.tgz#e683d648f221dea9f6242082c5d3ccbd1b17146c"
+  integrity sha512-oqqY85nG+QmWxrVr6C6TumwxLSewECPAg56knQO2QarRT5GG41t0O9p7rRikPG9NXcNb2RZ6QGRsLisq6XLgyg==
+
 twemoji-parser@14.0.0:
   version "14.0.0"
   resolved "https://registry.yarnpkg.com/twemoji-parser/-/twemoji-parser-14.0.0.tgz#13dabcb6d3a261d9efbf58a1666b182033bf2b62"

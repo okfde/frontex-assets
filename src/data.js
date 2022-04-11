@@ -1,16 +1,18 @@
 import data from './assets.json'
+import countries from './countries.json'
 import { addObjects } from './utils'
 
-const groupsIds = [
+export const groupsIds = [
   'officers',
-  'detectors',
-  'dogTeam',
   'vessels',
   'helicopters',
-  'patrolCar'
+  'patrolCar',
+  'dogTeam',
+  'detectors'
 ]
+const valueSort = ([, a], [, b]) => b - a
 
-const countryTotals = {}
+export const countryTotals = {}
 for (const [country, years] of Object.entries(data)) {
   countryTotals[country] = addObjects(
     years.map(_y => {
@@ -30,7 +32,16 @@ export function getCountryStats({ code }) {
     relative[group] = totals[group] / allTotals[group] || 0
   }
 
-  const sortedGroups = Object.entries(relative).sort(([, a], [, b]) => b - a)
+  const sortedGroups = Object.entries(relative).sort(valueSort)
 
   return { sortedGroups, totals }
+}
+
+export function getGroupStats(group) {
+  return Object.entries(countryTotals)
+    .map(([country, groups]) => [
+      countries.find(c => c.code === country),
+      groups[group] / allTotals[group]
+    ])
+    .sort(valueSort)
 }

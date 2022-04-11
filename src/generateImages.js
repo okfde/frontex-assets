@@ -5,6 +5,7 @@ import playwright from 'playwright'
 import viteConfig from '../vite.config.js'
 import { fileURLToPath } from 'url'
 
+const dev = process.env.NODE_ENV === 'development'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const countries = JSON.parse(
@@ -19,12 +20,12 @@ await fs.mkdir(distDir, { recursive: true })
 const port = 58234
 const server = await createServer({
   ...viteConfig,
-  mode: 'production',
   server: { port }
 })
 await server.listen()
 
 const browser = await playwright.chromium.launch({
+  headless: !dev,
   args: ['--disable-web-security'] // disable cors to load FdS assets
 })
 const context = await browser.newContext({
@@ -48,11 +49,11 @@ context.addInitScript(
 )
 
 const page = await context.newPage()
-await page.goto(`http://localhost:${port}`)
+await page.goto(`http://localhost:${port}/index.html`)
 await page.waitForLoadState('domcontentloaded')
 
 await page.evaluate(async () => {
-  document.querySelector('#app').style.width = '1000px'
+  document.querySelector('#country-explorer').style.width = '1000px'
   document.querySelector('.box-card').classList.remove('border-blue')
 
   document
@@ -78,23 +79,24 @@ await page.evaluate(async () => {
   attribution.nextElementSibling.remove()
   attribution.after(logo)
 
-  window.twemoji = (await import('/node_modules/.vite/deps/twemoji.js')).default
+  window.twemoji = (await import('/src/utils.js')).twemoji
 })
 
 for (const language of ['en', 'de']) {
-  await page.evaluate(language => {
-    document.documentElement.lang = language
+  await page.evaluate(async language => {
+    const { setLanguage } = await import('/src/utils.js')
+    setLanguage(language)
   }, language)
 
   for (const country of countries) {
     await page.evaluate(async country => {
-      const { setCountry } = await import('/src/components.js')
+      const { setCountry } = await import('/src/countryExplorer.jsx')
       setCountry(country)
 
       window.twemoji.parse(document.body)
     }, country)
 
-    await page.locator('#app').screenshot({
+    await page.locator('#country-explorer').screenshot({
       path: path.resolve(distDir, `${country.code}-${language}.png`),
       omitBackground: true
     })
@@ -103,5 +105,7 @@ for (const language of ['en', 'de']) {
   }
 }
 
-await browser.close()
-await server.close()
+if (!dev) {
+  await browser.close()
+  await server.close()
+}
