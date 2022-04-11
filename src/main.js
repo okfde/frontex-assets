@@ -1,4 +1,4 @@
-import { getCountryLabel, countries, i18n } from './utils'
+import { getCountryLabel, countries } from './utils'
 import { setCountry, countrySelector } from './components'
 import './style.css'
 

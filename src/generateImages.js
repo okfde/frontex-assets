@@ -24,18 +24,25 @@ const server = await createServer({
 })
 await server.listen()
 
-const browser = await playwright.chromium.launch()
+const browser = await playwright.chromium.launch({
+  args: ['--disable-web-security'] // disable cors to load FdS assets
+})
 const context = await browser.newContext({
   deviceScaleFactor: 3
 })
 context.addInitScript(
   () => {
     document.querySelector('#fds-styles').remove()
+    document.querySelector('#fds-scripts').remove()
 
-    const inter = document.createElement('script')
-    inter.src = '/node_modules/@fontsource/inter/index.css'
-    inter.type = 'module'
-    document.head.appendChild(inter)
+    const fdsScripts = document.createElement('script')
+    fdsScripts.src = 'https://static.frag-den-staat.de/static/js/main.js'
+    document.body.appendChild(fdsScripts)
+
+    const fdsStyles = document.createElement('link')
+    fdsStyles.href = 'https://static.frag-den-staat.de/static/css/main.css'
+    fdsStyles.rel = 'stylesheet'
+    document.head.appendChild(fdsStyles)
   },
   { type: 'module' }
 )
@@ -51,12 +58,6 @@ await page.evaluate(async () => {
   document
     .querySelector('#fx-country-selector')
     .classList.remove('dropdown-toggle')
-
-  const fdsStyles = document.createElement('link')
-  fdsStyles.href =
-    'https://api.allorigins.win/raw?url=https://static.frag-den-staat.de/static/css/main.css'
-  fdsStyles.rel = 'stylesheet'
-  document.head.appendChild(fdsStyles)
 
   const emoji = document.createElement('style')
   emoji.innerHTML = `
@@ -99,7 +100,6 @@ for (const language of ['en', 'de']) {
     })
 
     console.log('Rendered', country.name.en)
-    break
   }
 }
 
