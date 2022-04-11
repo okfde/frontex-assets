@@ -225,6 +225,6 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         </div>
 
         <span class="text-gray-700 mt-1">${l(d)}
-        ${qa("stats","offAll")} ${qa("groups",f,"title")}</span>
+        ${qa("stats","ofAll")} ${qa("groups",f,"title")}</span>
       </div>
     `,Ipe(g.querySelector(".fx-chart"),e,f),n.appendChild(g)}document.querySelector("#fx-attribution").innerText=qa("attribution"),(c=document.querySelector("#fx-download-png"))==null||c.setAttribute("href",`https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${e.code}-${t}.png`)}for(const e of O$){const t=document.createElement("a");t.classList.add("dropdown-item"),t.href="#!",t.innerText=S$(e),t.addEventListener("click",()=>i4(e)),r4.nextElementSibling.appendChild(t)}i4(O$.find(e=>e.code==="DE"))});export default zpe();
