@@ -1,8 +1,8 @@
 {
   "stats": {
-    "relContributions": {
-      "en": "of all assets",
-      "de": "aller Posten"
+    "ofAll": {
+      "en": "of all",
+      "de": "aller"
     },
     "providedInTotal": {
       "en": "provided",
