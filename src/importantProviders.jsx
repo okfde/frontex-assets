@@ -25,7 +25,7 @@ export function renderProviders() {
           <div>
             <div class="p-3">
               <ol class="list-unstyled mb-0">
-                {providers.slice(0, 3).map(([country, ratio], i) => (
+                {providers.slice(0, 5).map(([country, ratio], i) => (
                   <li class="mb-2">
                     <div
                       class="d-flex align-items-center position-relative"
