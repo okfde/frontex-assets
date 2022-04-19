@@ -1,4 +1,5 @@
 import embed from 'vega-embed'
+import { expressionInterpreter } from 'vega-interpreter'
 import assets from './assets.json'
 
 export function makeChart(el, country, group) {
@@ -59,7 +60,7 @@ export function makeChart(el, country, group) {
 
   embed(el, spec, {
     ast: true,
-    //expr: expressionInterpreter,
+    expr: expressionInterpreter,
     renderer: 'svg',
     actions: false
   })
