@@ -93,6 +93,9 @@ for (const language of ['en', 'de']) {
       const { setCountry } = await import('/src/countryExplorer.jsx')
       setCountry(country)
 
+      document
+        .querySelectorAll('data-target=["#fx-info-modal"]')
+        .forEach(el => el.remove())
       window.twemoji.parse(document.body)
     }, country)
 
