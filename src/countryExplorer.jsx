@@ -56,11 +56,13 @@ export function setCountry(country) {
   }
 
   document.querySelector('#fx-attribution').innerText = i18n('attribution')
+
+  const baseUrl = document.querySelector('script[data-assets]')?.dataset.assets
   document
     .querySelector('#fx-download-png')
     ?.setAttribute(
       'href',
-      `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}-${language}.png`
+      `${baseUrl}assets/countries/${country.code}-${language}.png`
     )
   window.BSN?.initCallback()
 }
