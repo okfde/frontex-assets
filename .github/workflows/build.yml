@@ -34,3 +34,6 @@ jobs:
         with:
           publish_dir: dist
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish
+        run: |
+          curl -X POST "${{ secrets.PUBLISH_URL }}"
