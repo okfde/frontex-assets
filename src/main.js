@@ -1,4 +1,4 @@
-import { getCountryLabel, countries } from './utils'
+import { getCountryLabel, countries } from './utils.jsx'
 import { setCountry, countrySelector } from './countryExplorer'
 import { renderProviders } from './importantProviders'
 

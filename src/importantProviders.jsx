@@ -1,25 +1,28 @@
 import { h } from 'tsx-dom'
 import { getGroupStats, groupsIds } from './data'
 import {
-  getCountryLabel,
   getCountryName,
   getFlagEmoji,
   i18n,
-  percentageFormat
-} from './utils'
+  percentageFormat,
+  groupModalButton
+} from './utils.jsx'
 
 export function renderProviders() {
-  const root = document.querySelector('#important-providers')
+  const root = document.querySelector('#fx-important-providers')
+  const modal = document.querySelector('#fx-provider-modal')
 
   for (const group of groupsIds) {
     const providers = getGroupStats(group)
-    console.log(providers)
 
     const card = (
       <div class="col col-12 col-md-4 mb-4">
         <div class="box-card bg-white border-blue">
           <div class="box-card-header p-3 tight-margin bg-blue-20">
-            <h4 class="h5">{i18n('groups', group, 'title')}</h4>
+            <h4 class="h5">
+              {i18n('groups', group, 'title')}
+              {groupModalButton(group, modal)}
+            </h4>
           </div>
 
           <div>

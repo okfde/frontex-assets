@@ -1,3 +1,4 @@
+import { h } from 'tsx-dom'
 import _countries from './countries.json'
 import i18nStrings from './i18n.json'
 
@@ -57,6 +58,26 @@ export function i18n(...path) {
     (obj, segment) => obj?.[segment],
     i18nStrings
   )
+}
+
+export function groupModalButton(group, modal) {
+  const prepareModal = () => {
+    console.log('m', modal, group)
+    modal.querySelector('h5').innerText = i18n('groups', group, 'title')
+    modal.querySelector('p').innerText = i18n('groups', group, 'description')
+  }
+
+  return i18n('groups', group, 'description') ? (
+    <button
+      class="btn btn-sm btn-light ml-1"
+      data-toggle="modal"
+      data-target={`#${modal.id}`}
+      onClick={prepareModal}
+    >
+      <i class="fa fa-info"></i>
+      <span class="sr-only">More information...</span>
+    </button>
+  ) : undefined
 }
 
 import twemoji from 'twemoji'

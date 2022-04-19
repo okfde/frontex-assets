@@ -79,12 +79,12 @@ await page.evaluate(async () => {
   attribution.nextElementSibling.remove()
   attribution.after(logo)
 
-  window.twemoji = (await import('/src/utils.js')).twemoji
+  window.twemoji = (await import('/src/utils.jsx')).twemoji
 })
 
 for (const language of ['en', 'de']) {
   await page.evaluate(async language => {
-    const { setLanguage } = await import('/src/utils.js')
+    const { setLanguage } = await import('/src/utils.jsx')
     setLanguage(language)
   }, language)
 
@@ -94,7 +94,7 @@ for (const language of ['en', 'de']) {
       setCountry(country)
 
       document
-        .querySelectorAll('button[data-target="#fx-info-modal"]')
+        .querySelectorAll('button[data-toggle="modal"]')
         .forEach(el => el.remove())
       window.twemoji.parse(document.body)
     }, country)
