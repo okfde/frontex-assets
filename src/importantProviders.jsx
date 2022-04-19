@@ -67,5 +67,5 @@ export function renderProviders() {
     root.appendChild(card)
   }
 
-  BSN.initCallback()
+  window.BSN?.initCallback()
 }

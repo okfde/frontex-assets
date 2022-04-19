@@ -62,5 +62,5 @@ export function setCountry(country) {
       'href',
       `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}-${language}.png`
     )
-  BSN.initCallback()
+  window.BSN?.initCallback()
 }
