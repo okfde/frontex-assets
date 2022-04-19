@@ -5,7 +5,7 @@ import { addObjects } from './utils'
 export const groupsIds = [
   'officers',
   'vessels',
-  'helicopters',
+  'aircrafts',
   'patrolCar',
   'dogTeam',
   'detectors'

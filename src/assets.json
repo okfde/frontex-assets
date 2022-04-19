@@ -6,7 +6,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 44
     },
     {
@@ -15,7 +15,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 7
     },
     {
@@ -24,7 +24,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 13
     },
     {
@@ -33,7 +33,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 57
     },
     {
@@ -42,7 +42,7 @@
       "detectors": 0,
       "dogTeam": 11,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 48
     },
     {
@@ -51,7 +51,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 4
     }
   ],
@@ -62,7 +62,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -71,7 +71,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -80,7 +80,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -89,7 +89,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -98,7 +98,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -107,7 +107,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 1,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 0
     }
   ],
@@ -117,8 +117,8 @@
       "officers": 268,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 7,
-      "helicopters": 0,
+      "vessels": 14,
+      "aircrafts": 0,
       "patrolCar": 62
     },
     {
@@ -126,8 +126,8 @@
       "officers": 248,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -136,7 +136,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 1,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 60
     },
     {
@@ -145,7 +145,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 1,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 132
     },
     {
@@ -154,7 +154,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 3,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 147
     },
     {
@@ -163,7 +163,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 144
     }
   ],
@@ -174,7 +174,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 6
     },
     {
@@ -183,7 +183,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -192,7 +192,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 3
     },
     {
@@ -201,7 +201,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 5
     },
     {
@@ -210,7 +210,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 13
     },
     {
@@ -219,7 +219,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 11
     }
   ],
@@ -230,7 +230,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 2
     },
     {
@@ -239,7 +239,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -248,7 +248,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -257,7 +257,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -266,7 +266,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -274,8 +274,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 0
     }
   ],
@@ -286,7 +286,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 38
     },
     {
@@ -295,7 +295,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 13
     },
     {
@@ -304,7 +304,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 6
     },
     {
@@ -313,7 +313,7 @@
       "detectors": 0,
       "dogTeam": 3,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 9
     },
     {
@@ -322,7 +322,7 @@
       "detectors": 0,
       "dogTeam": 3,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 24
     },
     {
@@ -331,7 +331,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 1
     }
   ],
@@ -341,8 +341,8 @@
       "officers": 1017,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 2,
-      "helicopters": 2,
+      "vessels": 4,
+      "aircrafts": 2,
       "patrolCar": 217
     },
     {
@@ -350,8 +350,8 @@
       "officers": 793,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 2,
-      "helicopters": 1,
+      "vessels": 4,
+      "aircrafts": 1,
       "patrolCar": 68
     },
     {
@@ -359,8 +359,8 @@
       "officers": 953,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 2,
-      "helicopters": 1,
+      "vessels": 4,
+      "aircrafts": 1,
       "patrolCar": 45
     },
     {
@@ -368,8 +368,8 @@
       "officers": 953,
       "detectors": 0,
       "dogTeam": 3,
-      "vessels": 2,
-      "helicopters": 1,
+      "vessels": 4,
+      "aircrafts": 1,
       "patrolCar": 18
     },
     {
@@ -377,8 +377,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 1,
-      "vessels": 20,
-      "helicopters": 2,
+      "vessels": 40,
+      "aircrafts": 2,
       "patrolCar": 25
     },
     {
@@ -387,7 +387,7 @@
       "detectors": 0,
       "dogTeam": 9,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 29
     }
   ],
@@ -397,8 +397,8 @@
       "officers": 326,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 1,
+      "vessels": 2,
+      "aircrafts": 4,
       "patrolCar": 1
     },
     {
@@ -406,8 +406,8 @@
       "officers": 245,
       "detectors": 1,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -416,7 +416,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -425,7 +425,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -434,7 +434,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -443,7 +443,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     }
   ],
@@ -453,8 +453,8 @@
       "officers": 167,
       "detectors": 8,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 0,
       "patrolCar": 26
     },
     {
@@ -462,8 +462,8 @@
       "officers": 211,
       "detectors": 10,
       "dogTeam": 0,
-      "vessels": 3,
-      "helicopters": 0,
+      "vessels": 6,
+      "aircrafts": 1,
       "patrolCar": 3
     },
     {
@@ -471,8 +471,8 @@
       "officers": 223,
       "detectors": 21,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 1,
       "patrolCar": 3
     },
     {
@@ -480,8 +480,8 @@
       "officers": 155,
       "detectors": 33,
       "dogTeam": 10,
-      "vessels": 3,
-      "helicopters": 0,
+      "vessels": 6,
+      "aircrafts": 0,
       "patrolCar": 15
     },
     {
@@ -489,8 +489,8 @@
       "officers": 0,
       "detectors": 7,
       "dogTeam": 7,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -498,8 +498,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 4,
-      "vessels": 2,
-      "helicopters": 0,
+      "vessels": 4,
+      "aircrafts": 1,
       "patrolCar": 0
     }
   ],
@@ -509,8 +509,8 @@
       "officers": 1622,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 30,
-      "helicopters": 3,
+      "vessels": 49,
+      "aircrafts": 4,
       "patrolCar": 0
     },
     {
@@ -518,8 +518,8 @@
       "officers": 2017,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 22,
-      "helicopters": 2,
+      "vessels": 29,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -527,8 +527,8 @@
       "officers": 3044,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 48,
-      "helicopters": 7,
+      "vessels": 72,
+      "aircrafts": 12,
       "patrolCar": 0
     },
     {
@@ -536,8 +536,8 @@
       "officers": 2441,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 24,
-      "helicopters": 1,
+      "vessels": 43,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -545,8 +545,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 29,
-      "helicopters": 2,
+      "vessels": 53,
+      "aircrafts": 2,
       "patrolCar": 24
     },
     {
@@ -554,8 +554,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 262,
-      "helicopters": 7,
+      "vessels": 505,
+      "aircrafts": 12,
       "patrolCar": 0
     }
   ],
@@ -565,8 +565,8 @@
       "officers": 619,
       "detectors": 1,
       "dogTeam": 0,
-      "vessels": 14,
-      "helicopters": 1,
+      "vessels": 22,
+      "aircrafts": 2,
       "patrolCar": 10
     },
     {
@@ -575,7 +575,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 11,
-      "helicopters": 7,
+      "aircrafts": 15,
       "patrolCar": 0
     },
     {
@@ -584,7 +584,7 @@
       "detectors": 2,
       "dogTeam": 0,
       "vessels": 10,
-      "helicopters": 5,
+      "aircrafts": 9,
       "patrolCar": 15
     },
     {
@@ -592,8 +592,8 @@
       "officers": 941,
       "detectors": 0,
       "dogTeam": 20,
-      "vessels": 13,
-      "helicopters": 3,
+      "vessels": 16,
+      "aircrafts": 8,
       "patrolCar": 45
     },
     {
@@ -601,8 +601,8 @@
       "officers": 0,
       "detectors": 1,
       "dogTeam": 5,
-      "vessels": 16,
-      "helicopters": 0,
+      "vessels": 19,
+      "aircrafts": 6,
       "patrolCar": 50
     },
     {
@@ -611,7 +611,7 @@
       "detectors": 0,
       "dogTeam": 44,
       "vessels": 9,
-      "helicopters": 0,
+      "aircrafts": 5,
       "patrolCar": 32
     }
   ],
@@ -621,8 +621,8 @@
       "officers": 76,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 3,
-      "helicopters": 0,
+      "vessels": 6,
+      "aircrafts": 0,
       "patrolCar": 12
     },
     {
@@ -630,8 +630,8 @@
       "officers": 86,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 1
     },
     {
@@ -640,7 +640,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 7,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -649,7 +649,7 @@
       "detectors": 0,
       "dogTeam": 7,
       "vessels": 8,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 4
     },
     {
@@ -657,8 +657,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 12,
-      "vessels": 7,
-      "helicopters": 0,
+      "vessels": 9,
+      "aircrafts": 2,
       "patrolCar": 11
     },
     {
@@ -666,8 +666,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 17,
-      "vessels": 7,
-      "helicopters": 0,
+      "vessels": 14,
+      "aircrafts": 2,
       "patrolCar": 12
     }
   ],
@@ -678,7 +678,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 2,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 14
     },
     {
@@ -687,7 +687,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 3,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -696,7 +696,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 3,
-      "helicopters": 0,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -705,7 +705,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 4,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -714,7 +714,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 2,
-      "helicopters": 0,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -723,7 +723,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 5,
-      "helicopters": 0,
+      "aircrafts": 4,
       "patrolCar": 0
     }
   ],
@@ -733,8 +733,8 @@
       "officers": 128,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 6,
-      "helicopters": 0,
+      "vessels": 12,
+      "aircrafts": 0,
       "patrolCar": 10
     },
     {
@@ -742,8 +742,8 @@
       "officers": 143,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 0,
       "patrolCar": 2
     },
     {
@@ -751,8 +751,8 @@
       "officers": 128,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 2,
-      "helicopters": 0,
+      "vessels": 4,
+      "aircrafts": 0,
       "patrolCar": 9
     },
     {
@@ -760,8 +760,8 @@
       "officers": 130,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 3,
-      "helicopters": 0,
+      "vessels": 6,
+      "aircrafts": 0,
       "patrolCar": 17
     },
     {
@@ -769,8 +769,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 8,
-      "helicopters": 0,
+      "vessels": 16,
+      "aircrafts": 0,
       "patrolCar": 8
     },
     {
@@ -778,8 +778,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 6,
-      "helicopters": 0,
+      "vessels": 9,
+      "aircrafts": 0,
       "patrolCar": 6
     }
   ],
@@ -790,7 +790,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 26
     },
     {
@@ -799,7 +799,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 13
     },
     {
@@ -808,7 +808,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 2,
+      "aircrafts": 2,
       "patrolCar": 12
     },
     {
@@ -817,7 +817,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 12
     },
     {
@@ -826,7 +826,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 2,
+      "aircrafts": 2,
       "patrolCar": 9
     },
     {
@@ -835,7 +835,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 0
     }
   ],
@@ -846,7 +846,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -855,7 +855,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -864,7 +864,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -873,7 +873,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 4,
       "patrolCar": 0
     },
     {
@@ -882,7 +882,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -891,7 +891,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 8,
-      "helicopters": 0,
+      "aircrafts": 4,
       "patrolCar": 0
     }
   ],
@@ -901,8 +901,8 @@
       "officers": 1194,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 5,
-      "helicopters": 13,
+      "vessels": 10,
+      "aircrafts": 24,
       "patrolCar": 2
     },
     {
@@ -910,8 +910,8 @@
       "officers": 1248,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 18,
-      "helicopters": 23,
+      "vessels": 35,
+      "aircrafts": 29,
       "patrolCar": 0
     },
     {
@@ -919,8 +919,8 @@
       "officers": 1545,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 25,
-      "helicopters": 15,
+      "vessels": 43,
+      "aircrafts": 22,
       "patrolCar": 0
     },
     {
@@ -928,8 +928,8 @@
       "officers": 1261,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 8,
-      "helicopters": 6,
+      "vessels": 14,
+      "aircrafts": 10,
       "patrolCar": 5
     },
     {
@@ -937,8 +937,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 32,
-      "helicopters": 11,
+      "vessels": 51,
+      "aircrafts": 22,
       "patrolCar": 0
     },
     {
@@ -946,8 +946,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 50,
-      "helicopters": 15,
+      "vessels": 70,
+      "aircrafts": 32,
       "patrolCar": 0
     }
   ],
@@ -957,8 +957,8 @@
       "officers": 257,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 1,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 27
     },
     {
@@ -966,8 +966,8 @@
       "officers": 319,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 2,
+      "vessels": 2,
+      "aircrafts": 2,
       "patrolCar": 0
     },
     {
@@ -975,8 +975,8 @@
       "officers": 212,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 1,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -985,7 +985,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 28
     },
     {
@@ -994,7 +994,7 @@
       "detectors": 0,
       "dogTeam": 9,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 21
     },
     {
@@ -1003,7 +1003,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 2,
+      "aircrafts": 2,
       "patrolCar": 6
     }
   ],
@@ -1014,7 +1014,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 1
     },
     {
@@ -1023,7 +1023,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -1032,7 +1032,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 4,
+      "aircrafts": 4,
       "patrolCar": 0
     },
     {
@@ -1041,7 +1041,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -1050,7 +1050,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 1
     },
     {
@@ -1059,7 +1059,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     }
   ],
@@ -1069,8 +1069,8 @@
       "officers": 338,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 4,
-      "helicopters": 2,
+      "vessels": 7,
+      "aircrafts": 5,
       "patrolCar": 15
     },
     {
@@ -1078,8 +1078,8 @@
       "officers": 540,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 5,
-      "helicopters": 3,
+      "vessels": 9,
+      "aircrafts": 9,
       "patrolCar": 1
     },
     {
@@ -1087,8 +1087,8 @@
       "officers": 540,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 3,
-      "helicopters": 2,
+      "vessels": 5,
+      "aircrafts": 2,
       "patrolCar": 7
     },
     {
@@ -1096,8 +1096,8 @@
       "officers": 293,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 3,
-      "helicopters": 2,
+      "vessels": 5,
+      "aircrafts": 5,
       "patrolCar": 13
     },
     {
@@ -1105,8 +1105,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 6,
-      "vessels": 8,
-      "helicopters": 7,
+      "vessels": 16,
+      "aircrafts": 11,
       "patrolCar": 13
     },
     {
@@ -1114,8 +1114,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 12,
-      "vessels": 14,
-      "helicopters": 6,
+      "vessels": 28,
+      "aircrafts": 6,
       "patrolCar": 20
     }
   ],
@@ -1126,7 +1126,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 4
     },
     {
@@ -1134,8 +1134,8 @@
       "officers": 70,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1143,8 +1143,8 @@
       "officers": 82,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 4,
       "patrolCar": 0
     },
     {
@@ -1152,8 +1152,8 @@
       "officers": 513,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 11,
-      "helicopters": 7,
+      "vessels": 15,
+      "aircrafts": 14,
       "patrolCar": 0
     },
     {
@@ -1161,8 +1161,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 26,
-      "helicopters": 12,
+      "vessels": 40,
+      "aircrafts": 24,
       "patrolCar": 1
     },
     {
@@ -1170,8 +1170,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 70,
-      "helicopters": 3,
+      "vessels": 136,
+      "aircrafts": 15,
       "patrolCar": 0
     }
   ],
@@ -1181,8 +1181,8 @@
       "officers": 305,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 33
     },
     {
@@ -1190,8 +1190,8 @@
       "officers": 509,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 2,
       "patrolCar": 4
     },
     {
@@ -1199,8 +1199,8 @@
       "officers": 614,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 12
     },
     {
@@ -1208,8 +1208,8 @@
       "officers": 707,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 19
     },
     {
@@ -1217,8 +1217,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 18,
-      "helicopters": 0,
+      "vessels": 34,
+      "aircrafts": 2,
       "patrolCar": 25
     },
     {
@@ -1226,8 +1226,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 2
     }
   ],
@@ -1238,7 +1238,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1247,7 +1247,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1256,7 +1256,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1265,7 +1265,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 2,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1273,8 +1273,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 2,
-      "vessels": 2,
-      "helicopters": 0,
+      "vessels": 3,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1283,7 +1283,7 @@
       "detectors": 0,
       "dogTeam": 4,
       "vessels": 1,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     }
   ],
@@ -1294,7 +1294,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 45
     },
     {
@@ -1303,7 +1303,7 @@
       "detectors": 2,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 57
     },
     {
@@ -1312,7 +1312,7 @@
       "detectors": 3,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 2,
+      "aircrafts": 2,
       "patrolCar": 14
     },
     {
@@ -1321,7 +1321,7 @@
       "detectors": 2,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 20
     },
     {
@@ -1330,7 +1330,7 @@
       "detectors": 2,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 38
     },
     {
@@ -1339,7 +1339,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 4
     }
   ],
@@ -1349,8 +1349,8 @@
       "officers": 471,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 11,
-      "helicopters": 0,
+      "vessels": 22,
+      "aircrafts": 2,
       "patrolCar": 11
     },
     {
@@ -1358,8 +1358,8 @@
       "officers": 542,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 5,
-      "helicopters": 0,
+      "vessels": 9,
+      "aircrafts": 3,
       "patrolCar": 2
     },
     {
@@ -1367,8 +1367,8 @@
       "officers": 777,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 7,
-      "helicopters": 0,
+      "vessels": 12,
+      "aircrafts": 2,
       "patrolCar": 2
     },
     {
@@ -1376,8 +1376,8 @@
       "officers": 534,
       "detectors": 0,
       "dogTeam": 16,
-      "vessels": 6,
-      "helicopters": 0,
+      "vessels": 11,
+      "aircrafts": 7,
       "patrolCar": 3
     },
     {
@@ -1385,8 +1385,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 15,
-      "vessels": 5,
-      "helicopters": 0,
+      "vessels": 8,
+      "aircrafts": 6,
       "patrolCar": 1
     },
     {
@@ -1394,8 +1394,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 23,
-      "vessels": 9,
-      "helicopters": 0,
+      "vessels": 17,
+      "aircrafts": 7,
       "patrolCar": 10
     }
   ],
@@ -1405,8 +1405,8 @@
       "officers": 321,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 13,
-      "helicopters": 2,
+      "vessels": 25,
+      "aircrafts": 2,
       "patrolCar": 34
     },
     {
@@ -1414,8 +1414,8 @@
       "officers": 270,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 5,
-      "helicopters": 1,
+      "vessels": 9,
+      "aircrafts": 1,
       "patrolCar": 8
     },
     {
@@ -1424,7 +1424,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 9
     },
     {
@@ -1433,7 +1433,7 @@
       "detectors": 0,
       "dogTeam": 6,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 24
     },
     {
@@ -1442,7 +1442,7 @@
       "detectors": 0,
       "dogTeam": 10,
       "vessels": 4,
-      "helicopters": 5,
+      "aircrafts": 5,
       "patrolCar": 26
     },
     {
@@ -1451,7 +1451,7 @@
       "detectors": 0,
       "dogTeam": 22,
       "vessels": 0,
-      "helicopters": 3,
+      "aircrafts": 3,
       "patrolCar": 42
     }
   ],
@@ -1461,8 +1461,8 @@
       "officers": 41,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -1470,8 +1470,8 @@
       "officers": 81,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -1479,8 +1479,8 @@
       "officers": 80,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -1488,8 +1488,8 @@
       "officers": 108,
       "detectors": 0,
       "dogTeam": 2,
-      "vessels": 3,
-      "helicopters": 2,
+      "vessels": 5,
+      "aircrafts": 3,
       "patrolCar": 0
     },
     {
@@ -1497,8 +1497,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 4,
-      "vessels": 21,
-      "helicopters": 2,
+      "vessels": 42,
+      "aircrafts": 3,
       "patrolCar": 4
     },
     {
@@ -1506,8 +1506,8 @@
       "officers": 0,
       "detectors": 0,
       "dogTeam": 3,
-      "vessels": 6,
-      "helicopters": 0,
+      "vessels": 9,
+      "aircrafts": 1,
       "patrolCar": 1
     }
   ],
@@ -1518,7 +1518,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 11
     },
     {
@@ -1527,7 +1527,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 10
     },
     {
@@ -1536,7 +1536,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 8
     },
     {
@@ -1545,7 +1545,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 6
     },
     {
@@ -1554,7 +1554,7 @@
       "detectors": 0,
       "dogTeam": 3,
       "vessels": 0,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 11
     },
     {
@@ -1563,7 +1563,7 @@
       "detectors": 0,
       "dogTeam": 1,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 3
     }
   ],
@@ -1574,7 +1574,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 19
     },
     {
@@ -1583,7 +1583,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -1592,7 +1592,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 2
     },
     {
@@ -1601,7 +1601,7 @@
       "detectors": 0,
       "dogTeam": 2,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 1
     },
     {
@@ -1610,7 +1610,7 @@
       "detectors": 0,
       "dogTeam": 3,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 1,
       "patrolCar": 22
     },
     {
@@ -1619,7 +1619,7 @@
       "detectors": 0,
       "dogTeam": 4,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 2,
       "patrolCar": 2
     }
   ],
@@ -1630,7 +1630,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1638,8 +1638,8 @@
       "officers": 89,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1647,8 +1647,8 @@
       "officers": 222,
       "detectors": 0,
       "dogTeam": 0,
-      "vessels": 1,
-      "helicopters": 0,
+      "vessels": 2,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1657,7 +1657,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1666,7 +1666,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 2,
-      "helicopters": 1,
+      "aircrafts": 1,
       "patrolCar": 0
     },
     {
@@ -1675,7 +1675,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 2,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     }
   ],
@@ -1686,7 +1686,7 @@
       "detectors": 36,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 5,
       "patrolCar": 36
     },
     {
@@ -1695,7 +1695,7 @@
       "detectors": 35,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 10,
       "patrolCar": 16
     },
     {
@@ -1704,7 +1704,7 @@
       "detectors": 7,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 7,
       "patrolCar": 0
     },
     {
@@ -1713,7 +1713,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     },
     {
@@ -1722,7 +1722,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 7,
       "patrolCar": 0
     },
     {
@@ -1731,7 +1731,7 @@
       "detectors": 0,
       "dogTeam": 0,
       "vessels": 0,
-      "helicopters": 0,
+      "aircrafts": 0,
       "patrolCar": 0
     }
   ]

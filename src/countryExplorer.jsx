@@ -38,6 +38,17 @@ export function setCountry(country) {
           <div>
             <span class="h3">{integerFormat(total)}</span>{' '}
             {i18n('groups', group, 'title')} {i18n('stats', 'providedInTotal')}
+            {i18n('groups', group, 'description') ? (
+              <button
+                class="btn btn-sm btn-light ml-1"
+                data-toggle="modal"
+                data-target="#fx-info-modal"
+                onClick={() => setModal(group)}
+              >
+                <i class="fa fa-info"></i>
+                <span class="sr-only">More information...</span>
+              </button>
+            ) : undefined}
           </div>
 
           <span class="text-gray-700 mt-1">
@@ -59,4 +70,10 @@ export function setCountry(country) {
       'href',
       `https://raw.githubusercontent.com/okfde/frontex-assets/gh-pages/assets/countries/${country.code}-${language}.png`
     )
+}
+
+function setModal(group) {
+  const modal = document.querySelector('#fx-info-modal')
+  modal.querySelector('h5').innerText = i18n('groups', group, 'title')
+  modal.querySelector('p').innerText = i18n('groups', group, 'description')
 }

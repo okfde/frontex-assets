@@ -15,7 +15,8 @@ export function setLanguage(
   integerFormat = new Intl.NumberFormat(locale).format
   percentageFormat = new Intl.NumberFormat(locale, {
     style: 'percent',
-    maximumFractionDigits: 1
+    maximumFractionDigits: 1,
+    minimumFractionDigits: 1
   }).format
 }
 setLanguage()

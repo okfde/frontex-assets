@@ -26,18 +26,17 @@ export function renderProviders() {
             <div class="p-3">
               <ol class="list-unstyled mb-0">
                 {providers.slice(0, 5).map(([country, ratio], i) => (
-                  <li class="mb-2">
+                  <li
+                    class="mb-2"
+                    data-toggle="tooltip"
+                    data-placement="left"
+                    title={getCountryName(country)}
+                  >
                     <div
                       class="d-flex align-items-center position-relative"
                       style="height: 0.75rem;"
                     >
-                      <div
-                        class="h5 m-0"
-                        data-toggle="tooltip"
-                        title={getCountryName(country)}
-                      >
-                        {getFlagEmoji(country.code)}
-                      </div>
+                      <div class="h5 m-0">{getFlagEmoji(country.code)}</div>
 
                       <div
                         class={`ml-1 rounded h-100 ${

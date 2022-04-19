@@ -24,7 +24,7 @@
         "de": ""
       },
       "description": {
-        "en": "",
+        "en": "Officers who implement Frontex border control operations and deportations coordinated by Frontex. Profiles include Liaison Officers.",
         "de": ""
       }
     },
@@ -34,7 +34,7 @@
         "de": ""
       },
       "description": {
-        "en": "",
+        "en": "Heartbeat Detectors are used by Frontex to “enable precise detection of human beings hidden in stationary vehicles”. Carbon Dioxide Detectors are used by Frontex “for the measurement of the existing CO2 concentration in a closed volume for the detection of people hiding in confined spaces such as trailers, rooms and vehicles (monitoring the CO2 concentration of human exhaled air).”",
         "de": ""
       }
     },
@@ -54,17 +54,17 @@
         "de": ""
       },
       "description": {
-        "en": "",
+        "en": "Vessels used for border control operations at sea. For example, Spanish OPV Rio Segura, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
         "de": ""
       }
     },
-    "helicopters": {
+    "aircrafts": {
       "title": {
-        "en": "helicopters",
-        "de": ""
+        "en": "aircrafts",
+        "de": "Flugzeuge"
       },
       "description": {
-        "en": "",
+        "en": "used for surveillance purposes, both at land and at sea. For example, the Frontex-leased OSPREY1 aircraft, which is routinely deployed by Frontex in the Central Mediterranean and has been linked to pullbacks in cooperation with the so-called Libyan Coast Guard",
         "de": ""
       }
     },
@@ -74,7 +74,7 @@
         "de": "Streifenwagen"
       },
       "description": {
-        "en": "",
+        "en": "Cars used for land border patrolling. Patrol cars were also the first mid-sized asset purchased by the agency.",
         "de": ""
       }
     }
