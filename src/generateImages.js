@@ -94,7 +94,7 @@ for (const language of ['en', 'de']) {
       setCountry(country)
 
       document
-        .querySelectorAll('data-target=["#fx-info-modal"]')
+        .querySelectorAll('button[data-target="#fx-info-modal"]')
         .forEach(el => el.remove())
       window.twemoji.parse(document.body)
     }, country)
