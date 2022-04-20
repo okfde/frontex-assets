@@ -53,7 +53,7 @@ await page.goto(`http://localhost:${port}/index.html`)
 await page.waitForLoadState('domcontentloaded')
 
 await page.evaluate(async () => {
-  document.querySelector('#country-explorer').style.width = '1000px'
+  document.querySelector('#country-explorer').style.width = '750px'
   document.querySelector('.box-card').classList.remove('border-blue')
 
   document

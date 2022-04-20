@@ -67,8 +67,8 @@ export function setCountry(country) {
   if (shareListener) shareImageEl?.removeEventListener('click', shareListener)
   shareListener = async e => {
     if (canShare) {
-      const open = () => window.open(url)
       e.preventDefault()
+      const open = () => window.open(url)
       if (!(await shareImage(country).catch(console.error))) open()
     }
   }
