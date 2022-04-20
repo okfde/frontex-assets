@@ -1,8 +1,10 @@
 import embed from 'vega-embed'
 import { expressionInterpreter } from 'vega-interpreter'
+import { i18n } from './utils.jsx'
 import assets from './assets.json'
 
 export function makeChart(el, country, group) {
+  console.log(group, i18n('groups', group, 'title'))
   const data = assets[country.code]
     .map(df => ({
       index: df.year,
@@ -23,12 +25,15 @@ export function makeChart(el, country, group) {
   /** @type import('vega-embed').VisualizationSpec */
   const spec = {
     width: 'container',
-    config: { view: { continuousWidth: 400, continuousHeight: 80 } },
+    config: {
+      view: { continuousWidth: 400, continuousHeight: 80 },
+      line: { point: true }
+    },
     layer: [
       {
         mark: {
           type: 'line',
-          interpolate: 'catmull-rom'
+          interpolate: 'linear'
         },
         encoding: {
           color: { value: 'var(--blue-30)' },
@@ -47,15 +52,21 @@ export function makeChart(el, country, group) {
             type: 'quantitative',
             title: '',
             axis
-          }
+          },
+          tooltip: [
+            {
+              field: 'value',
+              title: i18n('groups', group, 'title')
+            }
+          ]
         }
       }
     ],
-    data: { name: 'data', values: 'data' },
-    $schema: 'https://vega.github.io/schema/vega-lite/v5.2.0.json',
-    datasets: {
-      data
-    }
+    data: {
+      name: 'data',
+      values: data
+    },
+    $schema: 'https://vega.github.io/schema/vega-lite/v5.2.0.json'
   }
 
   embed(el, spec, {
