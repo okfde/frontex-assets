@@ -80,5 +80,36 @@ export function groupModalButton(group, modal) {
   ) : undefined
 }
 
+export function getShareImageUrl(country) {
+  const baseUrl = document.querySelector('script[data-assets]')?.dataset.assets
+  return `${baseUrl}assets/countries/${country.code}-${language}.png`
+}
+
+export const canShare = navigator.canShare?.({
+  files: [new File([], '', { type: 'image/png' })]
+})
+
+export async function shareImage(country) {
+  const url = getShareImageUrl(country)
+
+  if (canShare) {
+    const countryName = country.name[language]
+    const request = await fetch(url)
+    const blob = await request.blob()
+    console.log(blob)
+    const files = [new File([blob], countryName, { type: blob.type })]
+
+    if (navigator.canShare({ files })) {
+      return navigator.share({
+        title: countryName,
+        text: i18n('shareText').replace('$country', countryName),
+        files
+      })
+    }
+  }
+
+  return false
+}
+
 import twemoji from 'twemoji'
 export { twemoji }

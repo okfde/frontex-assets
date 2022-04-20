@@ -5,12 +5,17 @@ import {
   i18n,
   integerFormat,
   percentageFormat,
-  groupModalButton
+  groupModalButton,
+  getShareImageUrl,
+  shareImage,
+  canShare
 } from './utils.jsx'
 import { countryTotals, getCountryStats } from './data.js'
 import { makeChart } from './chart.js'
 
 export const countrySelector = document.querySelector('#fx-country-selector')
+
+let shareListener
 
 export function setCountry(country) {
   const stats = document.querySelector('#fx-stats')
@@ -44,8 +49,7 @@ export function setCountry(country) {
           </div>
 
           <span class="text-gray-700 mt-1">
-            {percentageFormat(ratio)} {i18n('stats', 'ofAll')}{' '}
-            {i18n('groups', group, 'title')}
+            {percentageFormat(ratio)} {i18n('stats', 'ofAll')}
           </span>
         </div>
       </div>
@@ -57,12 +61,21 @@ export function setCountry(country) {
 
   document.querySelector('#fx-attribution').innerText = i18n('attribution')
 
-  const baseUrl = document.querySelector('script[data-assets]')?.dataset.assets
-  document
-    .querySelector('#fx-download-png')
-    ?.setAttribute(
-      'href',
-      `${baseUrl}assets/countries/${country.code}-${language}.png`
-    )
+  const shareImageEl = document.querySelector('#fx-download-png')
+  const url = getShareImageUrl(country)
+  shareImageEl?.setAttribute('href', url)
+  if (shareListener) shareImageEl?.removeEventListener('click', shareListener)
+  shareListener = async e => {
+    if (canShare) {
+      const open = () => window.open(url)
+      e.preventDefault()
+      if (!(await shareImage(country).catch(open))) open()
+    }
+  }
+  shareImageEl?.addEventListener('click', shareListener)
+
+  if (canShare)
+    shareImageEl?.querySelector('i')?.setAttribute('class', 'fa fa-share-alt')
+
   window.BSN?.initCallback()
 }
