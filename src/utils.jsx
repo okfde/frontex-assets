@@ -62,7 +62,6 @@ export function i18n(...path) {
 
 export function groupModalButton(group, modal) {
   const prepareModal = () => {
-    console.log('m', modal, group)
     modal.querySelector('h5').innerText = i18n('groups', group, 'title')
     modal.querySelector('p').innerHTML = i18n('groups', group, 'description')
   }
@@ -96,8 +95,7 @@ export async function shareImage(country) {
     const countryName = country.name[language]
     const request = await fetch(url)
     const blob = await request.blob()
-    console.log(blob)
-    const files = [new File([blob], countryName, { type: blob.type })]
+    const files = [new File([blob], `${countryName}.png`, { type: blob.type })]
 
     if (navigator.canShare({ files })) {
       return navigator.share({
