@@ -69,7 +69,7 @@ export function groupModalButton(group, modal) {
 
   return i18n('groups', group, 'description') ? (
     <button
-      class="btn btn-sm btn-light ml-1"
+      class="btn btn-sm btn-light ml-2"
       data-toggle="modal"
       data-target={`#${modal.id}`}
       onClick={prepareModal}

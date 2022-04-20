@@ -16,9 +16,9 @@ export function renderProviders() {
     const providers = getGroupStats(group)
 
     const card = (
-      <div class="col col-12 col-md-4 mb-4">
+      <div class="col col-12 col-md-4 mb-4 d-flex">
         <div class="box-card bg-white border-blue">
-          <div class="box-card-header p-3 tight-margin bg-blue-20">
+          <div class="box-card-header p-3 tight-margin bg-blue-20 flex-grow-1">
             <h4 class="h5">
               {i18n('groups', group, 'title')}
               {groupModalButton(group, modal)}
