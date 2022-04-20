@@ -64,7 +64,7 @@ export function groupModalButton(group, modal) {
   const prepareModal = () => {
     console.log('m', modal, group)
     modal.querySelector('h5').innerText = i18n('groups', group, 'title')
-    modal.querySelector('p').innerText = i18n('groups', group, 'description')
+    modal.querySelector('p').innerHTML = i18n('groups', group, 'description')
   }
 
   return i18n('groups', group, 'description') ? (

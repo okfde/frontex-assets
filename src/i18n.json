@@ -1,17 +1,21 @@
 {
   "stats": {
     "ofAll": {
-      "en": "of all",
-      "de": "aller"
+      "en": "of all assets",
+      "de": "aller Lieferungen"
     },
     "providedInTotal": {
       "en": "provided",
       "de": "bereitgestellt"
     }
   },
+  "shareText": {
+    "en": "Contributions of $country to Frontex from 2015 to 2020",
+    "de": "Lieferungen von $country an Frontex von 2015 bis 2020"
+  },
   "attribution": {
     "en": "Source: Frontex Annual Implementation Reports, 2015 - 2020",
-    "de": "Quelle: Frontex Jahresberichte, 2015 - 2020"
+    "de": "Quelle: Frontex Annual Implementation Reports, 2015 - 2020"
   },
   "description": {
     "en": "contributions from 2015 to 2020",
@@ -21,17 +25,17 @@
     "officers": {
       "title": {
         "en": "officers",
-        "de": ""
+        "de": "Beamte und Offiziere"
       },
       "description": {
-        "en": "Officers who implement Frontex border control operations and deportations coordinated by Frontex. Profiles include Liaison Officers.",
+        "en": "Officers who implement Frontex border control operations, as well as deportations coordinated by Frontex. Profiles include Border Surveillance Officers, Return (deportation) Escorts, and Liaison Officers.",
         "de": ""
       }
     },
     "detectors": {
       "title": {
         "en": "detectors",
-        "de": ""
+        "de": "Personenerkennungssensoren"
       },
       "description": {
         "en": "Heartbeat Detectors are used by Frontex to “enable precise detection of human beings hidden in stationary vehicles”. Carbon Dioxide Detectors are used by Frontex “for the measurement of the existing CO2 concentration in a closed volume for the detection of people hiding in confined spaces such as trailers, rooms and vehicles (monitoring the CO2 concentration of human exhaled air).”",
@@ -41,7 +45,7 @@
     "dogTeam": {
       "title": {
         "en": "dog teams",
-        "de": ""
+        "de": "Hundestaffeln"
       },
       "description": {
         "en": "",
@@ -51,10 +55,10 @@
     "vessels": {
       "title": {
         "en": "vessels",
-        "de": ""
+        "de": "Schiffe"
       },
       "description": {
-        "en": "Vessels used for border control operations at sea. For example, Spanish OPV Rio Segura, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
+        "en": "Vessels used for border control operations at sea. For example, <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\" target=\"_blank\">Spanish OPV Rio Segura</a>, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
         "de": ""
       }
     },
