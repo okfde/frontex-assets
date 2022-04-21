@@ -98,23 +98,31 @@ export const canShare = navigator.canShare?.({
 export async function shareImage(country) {
   const url = getShareImageUrl(country)
 
-  if (canShare) {
-    const countryName = country.name[language]
-    const request = await fetch(url)
-    const blob = await request.blob()
-    const files = [new File([blob], `${countryName}.png`, { type: blob.type })]
+  const countryName = country.name[language]
+  const request = await fetch(url)
+  const blob = await request.blob()
+  if (blob.size === 0) throw new Error()
 
-    if (navigator.canShare({ files })) {
-      await navigator.share({
-        title: countryName,
-        text: i18n('shareText').replace('$country', countryName),
-        files
-      })
-      return true
-    }
+  const fileName = `${countryName}.png`
+  const files = [new File([blob], fileName, { type: blob.type })]
+
+  // use share api if possible, download otherwise
+  if (navigator.canShare?.({ files })) {
+    await navigator.share({
+      title: countryName,
+      text: i18n('shareText').replace('$country', countryName),
+      files
+    })
+    return true
+  } else {
+    // this is pure pain
+    const a = document.createElement('a')
+    a.href = window.URL.createObjectURL(blob)
+    a.download = fileName
+    a.click()
+
+    return true
   }
-
-  return false
 }
 
 import twemoji from 'twemoji'

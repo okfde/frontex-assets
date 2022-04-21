@@ -62,20 +62,23 @@ export function setCountry(country) {
   document.querySelector('#fx-attribution').innerText = i18n('attribution')
 
   const shareImageEl = document.querySelector('#fx-download-png')
-  const url = getShareImageUrl(country)
-  shareImageEl?.setAttribute('href', url)
-  if (shareListener) shareImageEl?.removeEventListener('click', shareListener)
-  shareListener = async e => {
-    if (canShare) {
+  if (shareImageEl) {
+    const url = getShareImageUrl(country)
+    shareImageEl.setAttribute('href', url)
+
+    if (shareListener) shareImageEl.removeEventListener('click', shareListener)
+
+    shareListener = async e => {
       e.preventDefault()
       const open = () => window.open(url)
-      if (!(await shareImage(country).catch(console.error))) open()
+      if (!(await shareImage(country).catch(open))) open()
     }
-  }
-  shareImageEl?.addEventListener('click', shareListener)
 
-  if (canShare)
-    shareImageEl?.querySelector('i')?.setAttribute('class', 'fa fa-share-alt')
+    shareImageEl.addEventListener('click', shareListener)
+
+    if (canShare)
+      shareImageEl.querySelector('i')?.setAttribute('class', 'fa fa-share-alt')
+  }
 
   window.BSN?.initCallback()
 }
