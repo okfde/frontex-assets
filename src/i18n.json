@@ -25,21 +25,21 @@
     "officers": {
       "title": {
         "en": "officers",
-        "de": "Beamte und Offiziere"
+        "de": "Polizeibeamte"
       },
       "description": {
         "en": "Officers who implement Frontex border control operations, as well as deportations coordinated by Frontex. Profiles include Border Surveillance Officers, Return (deportation) Escorts, and Liaison Officers.",
-        "de": ""
+        "de": "Beamte, die Grenzontrollen und Abschiebungen im Auftrag von Frontex durchführen. Dies beinhaltet Grenzbeamte, Abschiebungsbeamte sowie Verbindungsoffiziere."
       }
     },
     "detectors": {
       "title": {
-        "en": "detectors",
+        "en": "human presence detectors",
         "de": "Personenerkennungssensoren"
       },
       "description": {
-        "en": "Heartbeat Detectors are used by Frontex to “enable precise detection of human beings hidden in stationary vehicles”. Carbon Dioxide Detectors are used by Frontex “for the measurement of the existing CO2 concentration in a closed volume for the detection of people hiding in confined spaces such as trailers, rooms and vehicles (monitoring the CO2 concentration of human exhaled air).”",
-        "de": ""
+        "en": "Heartbeat Detectors <a href=\"https://ted.europa.eu/udl?uri=TED:NOTICE:369932-2017:TEXT:EN:HTML&tabId=1\">are used</a> by Frontex to “enable precise detection of human beings hidden in stationary vehicles”. Carbon Dioxide Detectors <a href=\"https://ted.europa.eu/udl?uri=TED:NOTICE:369932-2017:TEXT:EN:HTML&tabId=1\">are used</a> by Frontex “for the measurement of the existing CO2 concentration in a closed volume for the detection of people hiding in confined spaces such as trailers, rooms and vehicles (monitoring the CO2 concentration of human exhaled air).”",
+        "de": "Herzschlag-Sensoren <a href=\"https://ted.europa.eu/udl?uri=TED:NOTICE:369932-2017:TEXT:EN:HTML&tabId=1\">werden von Frontex genutzt</a>, um die „präzise Erkennung von versteckten Menschen in Fahrzeugen zu ermöglichen‟. Kohlenstoffdioxid-Sensoren <a href=\"https://ted.europa.eu/udl?uri=TED:NOTICE:369932-2017:TEXT:EN:HTML&tabId=1\">werden von Frontex genutzt</a>, „für die Messung der CO2-Konzentration in einem geschlossenen Raum, um Menschen, die sich etwa in Anhängern, Räumen und Fahrzeugen verstecken, zu erkennen‟"
       }
     },
     "dogTeam": {
@@ -59,7 +59,7 @@
       },
       "description": {
         "en": "Vessels used for border control operations at sea. For example, <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\" target=\"_blank\">Spanish OPV Rio Segura</a>, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
-        "de": ""
+        "de": "Schiffe und Boote werden für Grenzkontrolleinsätze auf dem Meer verwendet. Das spanische Schiff <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\" target=\"_blank\">OPV Rio Segura</a> wurde zum Beispiel von Frontex im Mittelmeer genutzt, bis im Gebiet alle Wasserfahrzeuge zurückgezogen wurden."
       }
     },
     "aircrafts": {
@@ -68,8 +68,8 @@
         "de": "Flugzeuge"
       },
       "description": {
-        "en": "used for surveillance purposes, both at land and at sea. For example, the Frontex-leased OSPREY1 aircraft, which is routinely deployed by Frontex in the Central Mediterranean and has been linked to pullbacks in cooperation with the so-called Libyan Coast Guard",
-        "de": ""
+        "en": "used for surveillance purposes, both at land and at sea. For example, <a href=\"https://twitter.com/scandura/status/1206277807824867330?lang=es\">the Frontex-leased OSPREY1 aircraft</a>, which is routinely deployed by Frontex in the Central Mediterranean and has been linked to pullbacks in cooperation with the so-called Libyan Coast Guard.",
+        "de": "werden für Oberservationszwecke, an Land und See verwendet. Das von <a href=\"https://twitter.com/scandura/status/1206277807824867330?lang=es\">Frontex verwendete Flugzeug OSPREY1</a> wird etwa regelmäßig bei Einsätzen im Mittelmeer verwendet und wurde mit Pushbacks in Kooperation mit der sogenannten Libyschen Küstenwache in Verbindung gebracht."
       }
     },
     "patrolCar": {
@@ -79,7 +79,7 @@
       },
       "description": {
         "en": "Cars used for land border patrolling. Patrol cars were also the first mid-sized asset purchased by the agency.",
-        "de": ""
+        "de": "Fahrzeuge, die an Land für Grenzkontrollen verwendet werden. Streifenwagen sind die ersten Objekte, die von Frontex mit Eigenkapital angeschafft wurden."
       }
     }
   }
