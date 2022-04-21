@@ -58,8 +58,8 @@
         "de": "Schiffe"
       },
       "description": {
-        "en": "Vessels used for border control operations at sea. For example, <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\" target=\"_blank\">Spanish OPV Rio Segura</a>, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
-        "de": "Schiffe und Boote werden für Grenzkontrolleinsätze auf dem Meer verwendet. Das spanische Schiff <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\" target=\"_blank\">OPV Rio Segura</a> wurde zum Beispiel von Frontex im Mittelmeer genutzt, bis im Gebiet alle Wasserfahrzeuge zurückgezogen wurden."
+        "en": "Vessels used for border control operations at sea. For example, <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\">Spanish OPV Rio Segura</a>, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
+        "de": "Schiffe und Boote werden für Grenzkontrolleinsätze auf dem Meer verwendet. Das spanische Schiff <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\">OPV Rio Segura</a> wurde zum Beispiel von Frontex im Mittelmeer genutzt, bis im Gebiet alle Wasserfahrzeuge zurückgezogen wurden."
       }
     },
     "aircrafts": {

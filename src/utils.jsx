@@ -62,8 +62,15 @@ export function i18n(...path) {
 
 export function groupModalButton(group, modal) {
   const prepareModal = () => {
-    modal.querySelector('h5').innerText = i18n('groups', group, 'title')
-    modal.querySelector('p').innerHTML = i18n('groups', group, 'description')
+    const groupTitle = i18n('groups', group, 'title')
+    modal.querySelector('h5').innerText =
+      groupTitle.charAt(0).toUpperCase() + groupTitle.slice(1)
+    const text = modal.querySelector('p')
+    text.innerHTML = i18n('groups', group, 'description')
+    text.querySelectorAll('a').forEach(a => {
+      a.setAttribute('target', '_blank')
+      a.setAttribute('rel', 'noopener noreferrer')
+    })
   }
 
   return i18n('groups', group, 'description') ? (
