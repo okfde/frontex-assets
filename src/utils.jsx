@@ -98,11 +98,12 @@ export async function shareImage(country) {
     const files = [new File([blob], `${countryName}.png`, { type: blob.type })]
 
     if (navigator.canShare({ files })) {
-      return navigator.share({
+      await navigator.share({
         title: countryName,
         text: i18n('shareText').replace('$country', countryName),
         files
       })
+      return true
     }
   }
 
