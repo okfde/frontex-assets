@@ -49,7 +49,7 @@ context.addInitScript(
 )
 
 const page = await context.newPage()
-await page.goto(`http://localhost:${port}/index.html`)
+await page.goto(`http://localhost:${port}/explorer.html`)
 await page.waitForLoadState('domcontentloaded')
 
 await page.evaluate(async () => {
