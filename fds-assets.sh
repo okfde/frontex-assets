@@ -13,11 +13,11 @@ FONTS=(
   "https://static.frag-den-staat.de/static/fonts/Inter-SemiBold-latin-ext.woff"
 )
 
-mkdir -p public/static/css
-mkdir -p public/static/fonts
+mkdir -p public/fds/css
+mkdir -p public/fds/fonts
 
-cd public/static/css
-wget "https://static.frag-den-staat.de/static/css/main.css"
+cd public/fds/css
+curl "https://static.frag-den-staat.de/static/css/main.css" | sed "s/\/static\//\/frontex-assets\/fds\//g" > main.css
 
 cd ../fonts
 for font in "${FONTS[@]}"
