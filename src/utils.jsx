@@ -87,7 +87,9 @@ export function groupModalButton(group, modal) {
 }
 
 export function getShareImageUrl(country) {
-  const baseUrl = document.querySelector('script[data-assets]')?.dataset.assets
+  const baseUrl =
+    window.dataAssets ||
+    document.querySelector('script[data-assets]')?.dataset.assets
   return `${baseUrl}assets/countries/${country.code}-${language}.png`
 }
 

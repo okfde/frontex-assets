@@ -59,7 +59,7 @@
       },
       "description": {
         "en": "Vessels used for border control operations at sea. For example, <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\">Spanish OPV Rio Segura</a>, which was used by Frontex for its operation in the Central Mediterranean before the agency pulled all maritime assets from the area.",
-        "de": "Schiffe und Boote werden für Grenzkontrolleinsätze auf dem Meer verwendet. Das spanische Schiff <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\">OPV Rio Segura</a> wurde zum Beispiel von Frontex im Mittelmeer genutzt, bis im Gebiet alle Wasserfahrzeuge zurückgezogen wurden."
+        "de": "Schiffe und Boote werden für Grenzkontrolleinsätze auf dem Meer verwendet. Zum Beispiel das spanische Schiff <a href=\"https://fdra-naval.blogspot.com/2013/07/opv-clase-rio-segura-espana.html\">OPV Rio Segura</a>, welches von Frontex im Mittelmeer genutzt wurde, bis im Gebiet alle Wasserfahrzeuge zurückgezogen wurden."
       }
     },
     "aircrafts": {
@@ -69,7 +69,7 @@
       },
       "description": {
         "en": "used for surveillance purposes, both at land and at sea. For example, <a href=\"https://twitter.com/scandura/status/1206277807824867330?lang=es\">the Frontex-leased OSPREY1 aircraft</a>, which is routinely deployed by Frontex in the Central Mediterranean and has been linked to pullbacks in cooperation with the so-called Libyan Coast Guard.",
-        "de": "werden für Oberservationszwecke, an Land und See verwendet. Das von <a href=\"https://twitter.com/scandura/status/1206277807824867330?lang=es\">Frontex verwendete Flugzeug OSPREY1</a> wird etwa regelmäßig bei Einsätzen im Mittelmeer verwendet und wurde mit Pushbacks in Kooperation mit der sogenannten Libyschen Küstenwache in Verbindung gebracht."
+        "de": "Sowohl an Land als auch auf See werden Flugzeuge zu Überwachungszwecken eingesetzt. Ein Beispiel ist das von <a href=\"https://twitter.com/scandura/status/1206277807824867330\">Frontex verwendete Flugzeug OSPREY1</a> , welches regelmäßig bei Einsätzen im Mittelmeer verwendet und mit Pushbacks in Kooperation mit der sogenannten Libyschen Küstenwache in Verbindung gebracht wurde."
       }
     },
     "patrolCar": {
@@ -79,7 +79,7 @@
       },
       "description": {
         "en": "Cars used for land border patrolling. Patrol cars were also the first mid-sized asset purchased by the agency.",
-        "de": "Fahrzeuge, die an Land für Grenzkontrollen verwendet werden. Streifenwagen sind die ersten Objekte, die von Frontex mit Eigenkapital angeschafft wurden."
+        "de": "Fahrzeuge, die an Land für Grenzkontrollen verwendet werden. Streifenwagen waren auch die ersten mittelgroßen Fahrzeuge, die von der Agentur gekauft wurden."
       }
     }
   }

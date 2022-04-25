@@ -69,3 +69,5 @@ export function renderProviders() {
 
   window.BSN?.initCallback()
 }
+
+document.addEventListener('DOMContentLoaded', renderProviders)

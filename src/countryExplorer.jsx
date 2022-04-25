@@ -12,12 +12,12 @@ import {
 } from './utils.jsx'
 import { countryTotals, getCountryStats } from './data.js'
 import { makeChart } from './chart.js'
-
-export const countrySelector = document.querySelector('#fx-country-selector')
+import countries from './countries.json'
 
 let shareListener
 
 export function setCountry(country) {
+  const countrySelector = document.querySelector('#fx-country-selector')
   const stats = document.querySelector('#fx-stats')
   const hint = document.querySelector('#fx-hint')
   const modal = document.querySelector('#fx-explorer-modal')
@@ -82,3 +82,20 @@ export function setCountry(country) {
 
   window.BSN?.initCallback()
 }
+
+function generateCountrySelector() {
+  const countrySelector = document.querySelector('#fx-country-selector')
+  for (const country of countries) {
+    const link = document.createElement('a')
+    link.classList.add('dropdown-item')
+    link.href = '#!'
+    link.innerText = getCountryLabel(country)
+    link.addEventListener('click', () => setCountry(country))
+    countrySelector.nextElementSibling.appendChild(link)
+  }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  generateCountrySelector()
+  setCountry(countries.find(c => c.code === 'DE'))
+})

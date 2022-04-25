@@ -1,8 +1,10 @@
 #fx-country-selector + .dropdown-menu.show {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  #fx-country-selector + .dropdown-menu.show {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

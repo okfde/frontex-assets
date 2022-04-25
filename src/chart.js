@@ -4,7 +4,6 @@ import { i18n } from './utils.jsx'
 import assets from './assets.json'
 
 export function makeChart(el, country, group) {
-  console.log(group, i18n('groups', group, 'title'))
   const data = assets[country.code]
     .map(df => ({
       index: df.year,
