@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@popperjs/core@^2.11.6":
+  version "2.11.6"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.6.tgz#cee20bd55e68a1720bdab363ecf0c821ded4cd45"
+  integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
+
 "@types/clone@~2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/clone/-/clone-2.1.1.tgz#9b880d0ce9b1f209b5e0bd6d9caa38209db34024"
@@ -53,14 +58,10 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-bootstrap.native@^4.1.2:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/bootstrap.native/-/bootstrap.native-4.1.2.tgz#45349920a2df7f052435bb0739b37a45d568740e"
-  integrity sha512-Lq88FJ+MSFXjpi6kCFmzifZ6faqvjsoY0m/zgvscsB1rcBEiAOHvJSZXG7FboNxZ9m12CtRQd8PO3Wh58RpM1Q==
-  dependencies:
-    event-listener.js "^0.0.5"
-    minifill "^0.0.17"
-    shorter-js "^0.3.2"
+bootstrap@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.2.1.tgz#45f97ff05cbe828bad807b014d8425f3aeb8ec3a"
+  integrity sha512-UQi3v2NpVPEi1n35dmRRzBJFlgvWHYwyem6yHhuT6afYF+sziEt46McRbT//kVXZ7b1YUYEVGdXEH74Nx3xzGA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -567,11 +568,6 @@ escape-string-regexp@^2.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
-event-listener.js@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/event-listener.js/-/event-listener.js-0.0.5.tgz#ec2f853cbc61c98ee9ad1b240dd10d1f425955a5"
-  integrity sha512-4mryaCw4/sEBxWDxQGK6oAznxERj5XMo7QlfYYTP64keMyBCduvyLDtX25Z16L2HYn/f8zpLQ2H1Cay9C6IJCw==
-
 extract-zip@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/extract-zip/-/extract-zip-2.0.1.tgz#663dca56fe46df890d5f131ef4a06d22bb8ba13a"
@@ -750,11 +746,6 @@ mime@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/mime/-/mime-3.0.0.tgz#b374550dca3a0c18443b0c950a6a58f1931cf7a7"
   integrity sha512-jSCU7/VB1loIWBZe14aEYHU/+1UMEHoaO7qxCOVJOw9GgH72VAWppxNcjU+x9a2k3GSIBXNKxXQFqRvvZ7vr3A==
-
-minifill@^0.0.17:
-  version "0.0.17"
-  resolved "https://registry.yarnpkg.com/minifill/-/minifill-0.0.17.tgz#8e5fab670e07f14ec67b2459735bb1fbfc48f2b0"
-  integrity sha512-tV56LFXsi8vjH4tUExtlu8aPKKQw/U/mn4OIrDU9x30H+9sP8/dWFbXzkAPmcH6o+9fho98kyafnk4VgQViYQQ==
 
 minimatch@^3.0.4:
   version "3.1.2"
@@ -965,11 +956,6 @@ semver@^7.3.5:
   integrity sha512-HZWqcgwLsjaX1HBD31msI/rXktuIhS+lWvdE4kN9z+8IVT4Itc7vqU2WvYsyD6/sjYCt4dEKH/m1M3dwI9CC5w==
   dependencies:
     lru-cache "^7.4.0"
-
-shorter-js@^0.3.2:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/shorter-js/-/shorter-js-0.3.4.tgz#3c471995b88d38e852c2aeb350ce4e7ac3f70d51"
-  integrity sha512-rVgQmFEd9aZ83fjQw5ct+TO7ll8N+KcoMlvaC5rqz/mrwG1uZe9Y88Wv+9a+ps3lbMq1iJAxaDgExNQARVRHlw==
 
 signal-exit@^3.0.2:
   version "3.0.7"

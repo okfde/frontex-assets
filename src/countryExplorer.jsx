@@ -8,7 +8,8 @@ import {
   groupModalButton,
   getShareImageUrl,
   shareImage,
-  canShare
+  canShare,
+  initTooltips
 } from './utils.jsx'
 import { countryTotals, getCountryStats } from './data.js'
 import { makeChart } from './chart.js'
@@ -79,8 +80,6 @@ export function setCountry(country) {
     if (canShare)
       shareImageEl.querySelector('i')?.setAttribute('class', 'fa fa-share-alt')
   }
-
-  window.BSN?.initCallback()
 }
 
 function generateCountrySelector() {

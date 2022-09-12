@@ -1,7 +1,6 @@
-import BSN from 'bootstrap.native/dist/bootstrap-native-v4.js'
-window.BSN = BSN
+import { Tooltip, Alert, Dropdown, Modal, Tab, Collapse } from 'bootstrap'
+window.bootstrap = { Tooltip, Alert, Dropdown, Modal, Tab, Collapse }
 
-console.log('in iframe?', window !== window.parent)
 document.addEventListener('DOMContentLoaded', () => {
   // if in iframe
   if (window !== window.parent) {

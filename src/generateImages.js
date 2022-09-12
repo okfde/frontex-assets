@@ -73,7 +73,7 @@ await page.evaluate(async () => {
 
   const logo = document.createElement('img')
   logo.src = 'https://static.frag-den-staat.de/static/img/header_logo.svg'
-  logo.classList.add('ml-auto')
+  logo.classList.add('ms-auto')
 
   const attribution = document.querySelector('#fx-attribution')
   attribution.nextElementSibling.remove()
@@ -94,7 +94,7 @@ for (const language of ['en', 'de']) {
       setCountry(country)
 
       document
-        .querySelectorAll('button[data-toggle="modal"]')
+        .querySelectorAll('button[data-bs-toggle="modal"]')
         .forEach(el => el.remove())
       window.twemoji.parse(document.body)
     }, country)

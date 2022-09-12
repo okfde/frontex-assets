@@ -75,13 +75,13 @@ export function groupModalButton(group, modal) {
 
   return i18n('groups', group, 'description') ? (
     <button
-      class="btn btn-sm btn-light ml-2"
-      data-toggle="modal"
-      data-target={`#${modal.id}`}
+      class="btn btn-sm btn-light ms-2"
+      data-bs-toggle="modal"
+      data-bs-target={`#${modal.id}`}
       onClick={prepareModal}
     >
       <i class="fa fa-info"></i>
-      <span class="sr-only">More information...</span>
+      <span class="visually-hidden">More information...</span>
     </button>
   ) : undefined
 }
@@ -125,6 +125,14 @@ export async function shareImage(country) {
 
     return true
   }
+}
+
+export function initTooltips(root) {
+  if (!window.bootstrap?.Tooltip) return
+
+  root
+    .querySelectorAll('[data-bs-toggle="tooltip"]')
+    .forEach(el => new window.bootstrap.Tooltip(el))
 }
 
 import twemoji from 'twemoji'

@@ -5,7 +5,8 @@ import {
   getFlagEmoji,
   i18n,
   percentageFormat,
-  groupModalButton
+  groupModalButton,
+  initTooltips
 } from './utils.jsx'
 
 export function renderProviders() {
@@ -31,8 +32,8 @@ export function renderProviders() {
                 {providers.slice(0, 5).map(([country, ratio], i) => (
                   <li
                     class="mb-2"
-                    data-toggle="tooltip"
-                    data-placement="left"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="left"
                     title={getCountryName(country)}
                   >
                     <div
@@ -42,7 +43,7 @@ export function renderProviders() {
                       <div class="h5 m-0">{getFlagEmoji(country.code)}</div>
 
                       <div
-                        class={`ml-1 rounded h-100 ${
+                        class={`ms-1 rounded h-100 ${
                           i === 0 ? 'bg-blue-600' : 'bg-gray-400'
                         }`}
                         role="progressbar"
@@ -51,7 +52,7 @@ export function renderProviders() {
                         aria-valuemin="0"
                         aria-valuemax="100"
                       ></div>
-                      <small class="ml-auto position-absolute" style="right: 0">
+                      <small class="ms-auto position-absolute" style="right: 0">
                         {percentageFormat(ratio)}
                       </small>
                     </div>
@@ -67,7 +68,7 @@ export function renderProviders() {
     root.appendChild(card)
   }
 
-  window.BSN?.initCallback()
+  initTooltips(root)
 }
 
 document.addEventListener('DOMContentLoaded', renderProviders)
