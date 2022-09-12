@@ -22,7 +22,7 @@ export default defineConfig({
         chunkFileNames: '[name].js',
         manualChunks(id) {
           if (id.includes('embed.js')) return 'bs'
-          if (id.includes('bootstrap.native')) return 'bs'
+          if (id.includes('bootstrap')) return 'bs'
           if (id.includes('node_modules')) return 'vendor'
         }
       }
