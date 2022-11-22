@@ -14,10 +14,10 @@ export function makeChart(el, country, group) {
   const years = assets[country.code].map(df => df.year)
 
   const axis = {
-    labelColor: 'var(--gray-600)',
-    gridColor: 'var(--gray-100)',
+    labelColor: 'var(--bs-gray-600)',
+    gridColor: 'var(--bs-gray-100)',
     domainColor: 'transparent',
-    tickColor: 'var(--gray-200)',
+    tickColor: 'var(--bs-gray-200)',
     tickCount: 2
   }
 
@@ -35,7 +35,7 @@ export function makeChart(el, country, group) {
           interpolate: 'linear'
         },
         encoding: {
-          color: { value: 'var(--blue-30)' },
+          color: { value: 'var(--bs-blue-30)' },
           x: {
             axis: {
               format: '',
